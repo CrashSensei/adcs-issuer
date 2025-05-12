@@ -140,6 +140,9 @@ webhookService:
 # Node selector configuration for the controller manager pods.
 nodeSelector: {}
 
+# A list of Kubernetes Tolerations, if required.
+tolerations: []
+
 # @section ADCS Simulator
 # Configuration for the ADCS Simulator.
 simulator:

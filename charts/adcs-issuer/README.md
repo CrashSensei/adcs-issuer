@@ -73,6 +73,7 @@ Kubernetes: `>=1.16.0`
 | metricsService.ports[0].targetPort | string | `"https"` |  |
 | metricsService.type | string | `"ClusterIP"` |  |
 | nodeSelector | object | `{}` |  |
+| tolerations | array | `[]` |  |
 | simulator.affinity.nodeAffinity | object | `{}` |  |
 | simulator.affinity.podAffinity | object | `{}` |  |
 | simulator.affinity.podAntiAffinity | object | `{}` |  |
